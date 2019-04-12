@@ -34,8 +34,8 @@ public class PalindromeLinkedList {
             for (int i=0;i<len/2;i++) {
                 ListNode next = cur.next;
                 cur.next = pre;
-                cur = next;
                 pre = cur;
+                cur = next;
             }
             if (len%2==1) cur=cur.next;
             for (;pre!=null&&cur!=null;cur=cur.next,pre=pre.next){
