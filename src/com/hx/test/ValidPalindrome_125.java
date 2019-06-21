@@ -1,6 +1,6 @@
 package com.hx.test;
 
-public class ValidPalindrome {
+public class ValidPalindrome_125 {
     private boolean isAlphanumeric(char c){
         return ((c>='a'&& c<='z')||(c>='A'&&c<='Z')||(c>='0'&&c<='9'));
     }

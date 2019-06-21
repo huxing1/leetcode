@@ -2,7 +2,7 @@ package com.hx.test;
 
 import java.util.Stack;
 
-public class PalindromeLinkedList {
+public class PalindromeLinkedList_234 {
     public class ListNode {
         int val;
         ListNode next;
@@ -11,19 +11,6 @@ public class PalindromeLinkedList {
             val = x;
         }
     }
-
-    // Time: O(n), Space: O(n)
-//    public boolean isPalindromeUsingStack(ListNode head) {
-//        Stack<Integer> s = new Stack<>();
-//        for (ListNode p = head; p != null; p = p.next)
-//            s.push(p.val);
-//
-//        for (ListNode p = head; p != null; p = p.next)
-//            if (p.val != s.pop())
-//                return false;
-//
-//        return true;
-//    }
 
     // Time: O(n), Space: O(1)
     public boolean isPalindromeReverseList(ListNode head){

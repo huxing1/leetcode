@@ -1,7 +1,7 @@
 package com.hx.test;
 
 //leetcode-9
-public class PalindromeNumber {
+public class PalindromeNumber_9 {
     public boolean isPalindrome(int x) {
         //个位数为0可以直接返回
         if (x<0||(x%10==0&&x!=0)) return false;

@@ -19,7 +19,7 @@ import java.util.List;
  *     ListNode(int x) { val = x; }
  * }
  */
-class ThreeSum {
+class ThreeSum_15 {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result=new LinkedList<>();
         if(nums!=null&&nums.length>2){
@@ -37,7 +37,8 @@ class ThreeSum {
                         result.add(list);
 
                         k--;
-                        j++; //下面while中继续进行-- ++的目的是为了去重
+                        j++;
+                        //下面while中继续进行-- ++的目的是为了去重
                         while (k > j && nums[k] == nums[k + 1]) {
                             k--;
                         }
