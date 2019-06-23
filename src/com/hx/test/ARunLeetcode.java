@@ -4,6 +4,6 @@ public class ARunLeetcode {
 
     public static void main(String[] args) {
         LongestPalindromicSubstring_5 aaa=new LongestPalindromicSubstring_5();
-        aaa.longestPalindromeDP("acbcab");
+        aaa.longestPalindromeExpand("a");
     }
 }
