@@ -3,7 +3,9 @@ package com.hx.test;
 public class ARunLeetcode {
 
     public static void main(String[] args) {
-        LongestPalindromicSubstring_5 aaa=new LongestPalindromicSubstring_5();
-        aaa.longestPalindromeExpand("a");
+        LongestCommonPrefix_14 aaa=new LongestCommonPrefix_14();
+        String[] num={"    "};
+        String max=aaa.longestCommonPrefix(num);
+        System.out.println(max);
     }
 }
