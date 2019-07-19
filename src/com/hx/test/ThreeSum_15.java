@@ -1,11 +1,5 @@
 package com.hx.test;
 
-//public class ThreeSum {
-//    public static void main(String[] args){
-//        System.out.println("hello world");
-//    }
-//}
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -25,7 +19,6 @@ class ThreeSum_15 {
         if(nums!=null&&nums.length>2){
             Arrays.sort(nums);
             for(int i=0;i<nums.length-2; ){
-
                 int j=i+1;
                 int k= nums.length-1;
                 while(j<k){

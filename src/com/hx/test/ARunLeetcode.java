@@ -1,11 +1,14 @@
 package com.hx.test;
 
+import java.util.List;
+
 public class ARunLeetcode {
 
     public static void main(String[] args) {
-        LongestCommonPrefix_14 aaa=new LongestCommonPrefix_14();
-        String[] num={"    "};
-        String max=aaa.longestCommonPrefix(num);
-        System.out.println(max);
+        GenerateParentheses_22 aaa=new GenerateParentheses_22();
+        int digits=3;
+        List result=aaa.generateParenthesis(digits);
+        System.out.println(result);
+
     }
 }
