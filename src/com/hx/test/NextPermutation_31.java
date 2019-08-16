@@ -8,12 +8,11 @@ public class NextPermutation_31 {
         {
             System.out.print(testNums[i]);
         }
-
     }
 
     private static void swap(int nums[],int i,int j){
         int tmp=nums[i];
-        nums[i]=nums[j];
+        nums[i]       =nums[j];
         nums[j]=tmp;
     }
     /**
