@@ -21,6 +21,7 @@ public class CombinationSum2_40 {
         }
         if (target < 0) return;
         for (int i = start; i < candidates.length; i++) {
+            //重点在于i!=start的时候，你仔细品
             if (i != start && candidates[i] == candidates[i - 1]) continue;
             elem.add(candidates[i]);
             resolve(candidates, target - candidates[i], elem, result, i+1);
