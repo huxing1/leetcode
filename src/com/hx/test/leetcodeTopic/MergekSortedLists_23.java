@@ -8,7 +8,7 @@ package com.hx.test.leetcodeTopic;
 * @return
 **/
 public class MergekSortedLists_23 {
-    public class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
