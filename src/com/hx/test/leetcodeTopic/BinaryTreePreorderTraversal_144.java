@@ -10,7 +10,7 @@ import java.util.List;
  * @create: 2020-04-22 17:03
  **/
 public class BinaryTreePreorderTraversal_144 {
-    public class TreeNode {
+    private class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
