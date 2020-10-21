@@ -9,8 +9,7 @@ import java.util.List;
  * @date
  */
 public class Subsets_78 {
-    public static List<List<Integer>> subsets(int[] nums,int start,
-                                              List<Integer> elem,List<List<Integer>> result){
+    public static List<List<Integer>> subsets(int[] nums,int start,List<Integer> elem,List<List<Integer>> result){
         int length=nums.length;
         result.add(new ArrayList<>(elem));
         for (int i=start;i<length;i++){
